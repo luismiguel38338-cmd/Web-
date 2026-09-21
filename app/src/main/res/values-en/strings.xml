@@ -1,0 +1,120 @@
+<resources>
+    <string name="app_name">SearchPro</string>
+
+    <!-- Welcome Screen -->
+    <string name="welcome_title">Welcome to SearchPro</string>
+    <string name="welcome_subtitle">Quickly find the information you need.</string>
+    <string name="welcome_start_button">Start exploring</string>
+
+    <!-- Home Screen -->
+    <string name="home_greeting">Hello! What would you like to search today?</string>
+    <string name="home_search_placeholder">Search by title, description, category or tags…</string>
+    <string name="search_clear">Clear search</string>
+    <string name="search_voice">Voice search</string>
+    <string name="search_filters_button">Advanced filters</string>
+    <string name="quick_access_recent">Recent searches</string>
+    <string name="quick_access_favorites">Saved favorites</string>
+    <string name="quick_access_categories">Featured categories</string>
+    <string name="home_empty_title">Explore information instantly</string>
+    <string name="home_empty_description">Type a search term above or browse categories to discover relevant results.</string>
+    <string name="results_count">%1$d results found</string>
+    <string name="search_loading">Searching information…</string>
+    <string name="search_no_results_title">No results found</string>
+    <string name="search_no_results_desc">We couldn\'t find anything matching your search and applied filters.</string>
+    <string name="search_error_message">An error occurred while performing search. Please try again.</string>
+    <string name="see_all">See all</string>
+
+    <!-- Filters Screen -->
+    <string name="filters_title">Advanced Filters</string>
+    <string name="filters_category_label">Category</string>
+    <string name="filters_category_all">All categories</string>
+    <string name="filters_date_label">Date range</string>
+    <string name="filters_date_all">Any date</string>
+    <string name="filters_date_last_7">Last 7 days</string>
+    <string name="filters_date_last_30">Last 30 days</string>
+    <string name="filters_date_this_year">This year</string>
+    <string name="filters_status_label">Status</string>
+    <string name="filters_status_all">All statuses</string>
+    <string name="filters_status_active">Active</string>
+    <string name="filters_status_archived">Archived</string>
+    <string name="filters_status_draft">Draft</string>
+    <string name="filters_status_pending">Pending</string>
+    <string name="filters_sort_label">Sort order</string>
+    <string name="filters_sort_relevance">Relevance</string>
+    <string name="filters_sort_newest">Newest date</string>
+    <string name="filters_sort_oldest">Oldest date</string>
+    <string name="filters_sort_alphabetical">Alphabetically (A-Z)</string>
+    <string name="filters_active_toggle">Enable filters</string>
+    <string name="filters_apply_button">Apply filters</string>
+    <string name="filters_clear_button">Clear filters</string>
+    <string name="filters_active_chips_title">Active filters</string>
+
+    <!-- Details Screen -->
+    <string name="details_title">Item Details</string>
+    <string name="details_date_label">Publication Date</string>
+    <string name="details_category_label">Category</string>
+    <string name="details_status_label">Status</string>
+    <string name="details_relevance_label">Relevance Score</string>
+    <string name="details_tags_label">Tags</string>
+    <string name="details_description_label">Full Description</string>
+    <string name="details_favorite_add">Add to favorites</string>
+    <string name="details_favorite_remove">Remove from favorites</string>
+    <string name="details_back_button">Back to results</string>
+
+    <!-- Recent Searches Screen -->
+    <string name="recent_title">Recent Searches</string>
+    <string name="recent_empty_title">No recent searches</string>
+    <string name="recent_empty_desc">Your search terms will be automatically saved here.</string>
+    <string name="recent_clear_all">Clear all history</string>
+    <string name="recent_clear_all_confirm_title">Clear history?</string>
+    <string name="recent_clear_all_confirm_message">This action will permanently remove all recently stored search history.</string>
+    <string name="recent_repeat_action">Repeat search</string>
+    <string name="recent_delete_item">Delete search</string>
+    <string name="recent_timestamp_label">Searched: %1$s</string>
+
+    <!-- Favorites Screen -->
+    <string name="favorites_title">My Favorites</string>
+    <string name="favorites_empty_title">No favorites yet</string>
+    <string name="favorites_empty_desc">Save important items by tapping the star icon in results or details.</string>
+    <string name="favorites_open_details">Open details</string>
+    <string name="favorites_remove">Remove from favorites</string>
+
+    <!-- Settings Screen -->
+    <string name="settings_title">Settings</string>
+    <string name="settings_language_section">App Language</string>
+    <string name="settings_language_system">System Default</string>
+    <string name="settings_language_es">Spanish (Español)</string>
+    <string name="settings_language_en">English</string>
+    <string name="settings_language_fr">French (Français)</string>
+    <string name="settings_theme_section">Appearance &amp; Theme</string>
+    <string name="settings_theme_light">Light theme</string>
+    <string name="settings_theme_dark">Dark theme</string>
+    <string name="settings_theme_system">Follow system</string>
+    <string name="settings_behavior_section">Search Preferences</string>
+    <string name="settings_suggestions_title">Show search suggestions</string>
+    <string name="settings_suggestions_desc">Suggest previous searches while typing in the search bar</string>
+    <string name="settings_vibration_title">Haptic feedback</string>
+    <string name="settings_vibration_desc">Vibrate gently when interacting with key actions</string>
+    <string name="settings_info_section">About SearchPro</string>
+    <string name="settings_version_label">Version</string>
+    <string name="settings_version_value">1.0.0 (Decoupled MVVM Architecture)</string>
+    <string name="settings_voice_service_title">Voice Search Ready</string>
+    <string name="settings_voice_service_desc">Uses Android native speech recognition service via configurable contracts.</string>
+
+    <!-- Common and Accessibility -->
+    <string name="action_cancel">Cancel</string>
+    <string name="action_confirm">Confirm</string>
+    <string name="action_close">Close</string>
+    <string name="action_back">Back</string>
+    <string name="content_desc_back">Navigate back</string>
+    <string name="content_desc_settings">Open settings</string>
+    <string name="content_desc_filter">Open filters</string>
+    <string name="content_desc_favorite_toggle">Toggle favorite</string>
+    <string name="content_desc_clear_search">Clear search query</string>
+    <string name="content_desc_voice_search">Start voice search</string>
+    <string name="content_desc_app_logo">SearchPro logo</string>
+    <string name="content_desc_delete">Delete item</string>
+    <string name="voice_not_available">Speech recognition is not available on this device.</string>
+    <string name="suggestions_ai_header">Smart suggestions (Gemini)</string>
+    <string name="suggestions_recent_header">Previous searches</string>
+</resources>

@@ -1,0 +1,183 @@
+<resources>
+    <string name="app_name">SearchPro</string>
+
+    <!-- Welcome Screen -->
+    <string name="welcome_title">Bienvenido a SearchPro</string>
+    <string name="welcome_subtitle">Encuentra rápidamente la información que necesitas.</string>
+    <string name="welcome_start_button">Comenzar a explorar</string>
+
+    <!-- Home Screen -->
+    <string name="home_greeting">¡Hola! ¿Qué deseas buscar hoy?</string>
+    <string name="home_search_placeholder">Buscar por título, descripción, categoría o etiquetas…</string>
+    <string name="search_clear">Limpiar búsqueda</string>
+    <string name="search_voice">Búsqueda por voz</string>
+    <string name="search_filters_button">Filtros avanzados</string>
+    <string name="quick_access_recent">Búsquedas recientes</string>
+    <string name="quick_access_favorites">Favoritos guardados</string>
+    <string name="quick_access_categories">Categorías destacadas</string>
+    <string name="home_empty_title">Explora información al instante</string>
+    <string name="home_empty_description">Escribe un término en la barra superior o explora las categorías para ver resultados relevantes.</string>
+    <string name="results_count">%1$d resultados encontrados</string>
+    <string name="search_loading">Buscando información…</string>
+    <string name="search_no_results_title">Sin resultados</string>
+    <string name="search_no_results_desc">No encontramos elementos que coincidan con tu búsqueda y filtros aplicados.</string>
+    <string name="search_error_message">Ocurrió un inconveniente al realizar la búsqueda. Por favor, intenta de nuevo.</string>
+    <string name="see_all">Ver todos</string>
+
+    <!-- Filters Screen -->
+    <string name="filters_title">Filtros avanzados</string>
+    <string name="filters_category_label">Categoría</string>
+    <string name="filters_category_all">Todas las categorías</string>
+    <string name="filters_date_label">Rango de fecha</string>
+    <string name="filters_date_all">Cualquier fecha</string>
+    <string name="filters_date_last_7">Últimos 7 días</string>
+    <string name="filters_date_last_30">Últimos 30 días</string>
+    <string name="filters_date_this_year">Este año</string>
+    <string name="filters_status_label">Estado</string>
+    <string name="filters_status_all">Todos los estados</string>
+    <string name="filters_status_active">Activo</string>
+    <string name="filters_status_archived">Archivado</string>
+    <string name="filters_status_draft">Borrador</string>
+    <string name="filters_status_pending">Pendiente</string>
+    <string name="filters_sort_label">Criterio de ordenamiento</string>
+    <string name="filters_sort_relevance">Relevancia</string>
+    <string name="filters_sort_newest">Fecha más reciente</string>
+    <string name="filters_sort_oldest">Fecha más antigua</string>
+    <string name="filters_sort_alphabetical">Alfabéticamente (A-Z)</string>
+    <string name="filters_active_toggle">Activar filtros</string>
+    <string name="filters_apply_button">Aplicar filtros</string>
+    <string name="filters_clear_button">Limpiar filtros</string>
+    <string name="filters_active_chips_title">Filtros activos</string>
+
+    <!-- Details Screen -->
+    <string name="details_title">Detalles del elemento</string>
+    <string name="details_date_label">Fecha de publicación</string>
+    <string name="details_category_label">Categoría</string>
+    <string name="details_status_label">Estado</string>
+    <string name="details_relevance_label">Índice de relevancia</string>
+    <string name="details_tags_label">Etiquetas</string>
+    <string name="details_description_label">Descripción completa</string>
+    <string name="details_favorite_add">Agregar a favoritos</string>
+    <string name="details_favorite_remove">Quitar de favoritos</string>
+    <string name="details_back_button">Volver a los resultados</string>
+
+    <!-- Recent Searches Screen -->
+    <string name="recent_title">Búsquedas recientes</string>
+    <string name="recent_empty_title">Sin búsquedas recientes</string>
+    <string name="recent_empty_desc">Tus términos de búsqueda se guardarán automáticamente aquí.</string>
+    <string name="recent_clear_all">Borrar todo el historial</string>
+    <string name="recent_clear_all_confirm_title">¿Borrar historial?</string>
+    <string name="recent_clear_all_confirm_message">Esta acción eliminará todas las búsquedas guardadas recientemente.</string>
+    <string name="recent_repeat_action">Repetir búsqueda</string>
+    <string name="recent_delete_item">Eliminar búsqueda</string>
+    <string name="recent_timestamp_label">Buscado: %1$s</string>
+
+    <!-- Favorites Screen -->
+    <string name="favorites_title">Mis favoritos</string>
+    <string name="favorites_empty_title">No tienes favoritos aún</string>
+    <string name="favorites_empty_desc">Guarda elementos importantes tocando el icono de estrella en los resultados o detalles.</string>
+    <string name="favorites_open_details">Abrir detalles</string>
+    <string name="favorites_remove">Eliminar de favoritos</string>
+
+    <!-- Settings Screen -->
+    <string name="settings_title">Configuración</string>
+    <string name="settings_language_section">Idioma de la aplicación</string>
+    <string name="settings_language_system">Predeterminado del sistema</string>
+    <string name="settings_language_es">Español</string>
+    <string name="settings_language_en">Inglés (English)</string>
+    <string name="settings_language_fr">Francés (Français)</string>
+    <string name="settings_theme_section">Apariencia y tema</string>
+    <string name="settings_theme_light">Tema claro</string>
+    <string name="settings_theme_dark">Tema oscuro</string>
+    <string name="settings_theme_system">Seguir tema del sistema</string>
+    <string name="settings_behavior_section">Comportamiento de la búsqueda</string>
+    <string name="settings_suggestions_title">Mostrar sugerencias</string>
+    <string name="settings_suggestions_desc">Muestra sugerencias de búsquedas anteriores al escribir</string>
+    <string name="settings_vibration_title">Vibración al tocar botones</string>
+    <string name="settings_vibration_desc">Respuesta táctil al interactuar con acciones principales</string>
+    <string name="settings_info_section">Acerca de SearchPro</string>
+    <string name="settings_version_label">Versión</string>
+    <string name="settings_version_value">1.0.0 (Arquitectura MVVM desacoplada)</string>
+    <string name="settings_voice_service_title">Búsqueda por voz integrada</string>
+    <string name="settings_voice_service_desc">Utiliza el reconocedor nativo de Android mediante contratos configurables.</string>
+
+    <!-- Common and Accessibility -->
+    <string name="action_cancel">Cancelar</string>
+    <string name="action_confirm">Confirmar</string>
+    <string name="action_close">Cerrar</string>
+    <string name="action_back">Volver</string>
+    <string name="content_desc_back">Regresar</string>
+    <string name="content_desc_settings">Abrir configuración</string>
+    <string name="content_desc_filter">Abrir filtros</string>
+    <string name="content_desc_favorite_toggle">Alternar favorito</string>
+    <string name="content_desc_clear_search">Borrar texto de búsqueda</string>
+    <string name="content_desc_voice_search">Iniciar búsqueda por voz</string>
+    <string name="content_desc_app_logo">Logo de SearchPro</string>
+    <string name="content_desc_delete">Eliminar elemento</string>
+    <string name="voice_not_available">El reconocimiento de voz no está disponible en este dispositivo.</string>
+    <string name="suggestions_ai_header">Sugerencias inteligentes (Gemini)</string>
+    <string name="suggestions_recent_header">Búsquedas anteriores</string>
+
+    <!-- Browser Strings -->
+    <string name="browser_tagline">Tu ventana a la web con IA inteligente</string>
+    <string name="search_or_enter_url">Buscar o escribir URL</string>
+    <string name="select_search_engine">Motor de búsqueda</string>
+    <string name="speed_dial_title">Accesos rápidos</string>
+    <string name="recent_pages_title">Páginas recientes</string>
+    <string name="view_all">Ver todo</string>
+    <string name="open_tabs_count">Pestañas abiertas (%1$d)</string>
+    <string name="new_tab_action">Nueva pestaña</string>
+    <string name="new_tab_title">Nueva pestaña</string>
+    <string name="close_tab">Cerrar pestaña</string>
+
+    <!-- Browser Menu & Bottom Bar -->
+    <string name="menu_add_bookmark">Añadir a marcadores</string>
+    <string name="menu_remove_bookmark">Quitar de marcadores</string>
+    <string name="menu_summarize_ai">Resumir con Gemini AI</string>
+    <string name="menu_bookmarks">Marcadores</string>
+    <string name="menu_history">Historial</string>
+    <string name="menu_desktop_site">Sitio para computadoras</string>
+    <string name="menu_mobile_site">Sitio móvil</string>
+    <string name="menu_share">Compartir página</string>
+    <string name="menu_settings">Configuración</string>
+    <string name="content_desc_forward">Avanzar</string>
+    <string name="content_desc_home">Página de inicio</string>
+
+    <!-- Bookmarks & History Sheet -->
+    <string name="no_bookmarks_yet">No tienes marcadores guardados</string>
+    <string name="no_history_yet">El historial de navegación está vacío</string>
+    <string name="search_history_placeholder">Buscar en el historial…</string>
+    <string name="clear_history_action">Borrar historial</string>
+    <string name="clear_history_title">¿Borrar historial de navegación?</string>
+    <string name="clear_history_confirm_message">Se eliminarán todas las páginas visitadas registradas.</string>
+    <string name="clear_action">Borrar</string>
+    <string name="cancel_action">Cancelar</string>
+    <string name="close_action">Cerrar</string>
+
+    <!-- Gemini AI Assistant -->
+    <string name="gemini_assistant_title">Asistente Gemini AI</string>
+    <string name="gemini_assistant_subtitle">Pregunta sobre la página o cualquier tema</string>
+    <string name="gemini_assistant_sheet_title">SearchPro AI • Gemini</string>
+    <string name="gemini_assistant_ready">Listo para ayudarte con tu navegación</string>
+    <string name="summarize_page_button">Resumir esta página</string>
+    <string name="ai_summary_header">Resumen inteligente</string>
+    <string name="generating_summary">Analizando y resumiendo la página…</string>
+    <string name="ask_gemini_prompt">¿Qué deseas saber sobre esta página o la web?</string>
+    <string name="gemini_thinking">Gemini está pensando…</string>
+    <string name="ask_anything_placeholder">Haz una pregunta a Gemini AI…</string>
+
+    <!-- Settings Dialog -->
+    <string name="setting_language_title">Idioma</string>
+    <string name="language_system">Predeterminado del sistema</string>
+    <string name="language_spanish">Español</string>
+    <string name="language_english">English</string>
+    <string name="language_french">Français</string>
+    <string name="setting_theme_title">Tema visual</string>
+    <string name="theme_system">Sistema</string>
+    <string name="theme_light">Claro</string>
+    <string name="theme_dark">Oscuro</string>
+
+    <!-- Official Website & APK info -->
+    <string name="official_website_title">Sitio Web Oficial y APK</string>
+    <string name="official_website_desc">Visita la página web con tu dominio y descarga el APK</string>
+</resources>

@@ -1,0 +1,7 @@
+{
+  "name": "SearchPro",
+  "description": "Navegador web inteligente y motor de búsqueda en tiempo real con pestañas, marcadores, historial y asistencia IA con Gemini.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
+
